@@ -1,0 +1,211 @@
+@-moz-viewport { wiidth: device-width; scale: 1; }
+@-ms-viewport { wiidth: device-width; scale: 1; }
+@-o-viewport { wiidth: device-width; scale: 1; }
+@-webkit-viewport { wiidth: device-width; scale: 1; }
+@viewport { wiidth: device-width; scale: 1; }
+
+
+html {
+	background:url(../images/jenny1.jpg) no-repeat center center fixed;
+	background-repeat:no-repeat;
+	max-width:100%;
+	background-size:cover;
+	font-size:13px;
+	min-width:15em;
+}
+
+h2 {
+	color:#FFF;
+	padding-left:1em;
+	margin:0;
+}
+
+h3 {
+  line-height: 1;
+  font-family: "RonniaHeavyRegular", Helvetica, Arial, Sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.3em;
+  margin:0;
+}
+
+
+
+ol {
+	margin:0;
+	
+}
+
+
+.nav, ul {
+	margin: 0;
+	overflow: hidden;
+	list-style-type: none;
+	font-size: 1.25rem;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 0.5rem 10px;
+	border: 0;
+	color:#fff;
+	text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	color:#5D8035;
+}
+
+.pages {
+	padding-left:1em;
+	margin:0;
+	float:left;
+}
+
+
+img {
+		max-width:100%;
+}
+
+header {
+	font-size:30px;
+	/*background-color: rgba(255,255,255,0.5);*/
+	border-radius:8px;
+}
+
+article {
+	width:100%;
+	background-color: rgba(255,255,255,0.8);
+	padding:1em;
+	padding-top:.3em;
+	margin-right:.1em;
+	border-radius:8px;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+li {
+	display:inline-block;
+}
+
+img {
+		max-width:75%;
+		padding:2;
+}
+
+ul {
+	padding:0;
+}
+
+
+
+.credit {
+	font-size:14px;
+}
+
+
+p {
+	margin-right: 1em;
+	padding-right:1.5em;
+}
+
+	
+
+
+@media only screen and (min-width:19em) {
+
+html {
+	font-size:16px;
+}
+
+
+	
+.home, .portfolio {
+	width:300px;
+}
+
+img {
+	max-width:100%;
+}
+	
+}
+
+@media only screen and (min-width:23em) {
+.pages {
+	float:right;
+}
+}
+
+@media only screen and (min-width:29em) {
+h3 {
+	  font-size: 60px;
+}	
+}
+
+@media only screen and (min-width:38.75em) {
+
+.home {
+	width:350px;
+}
+.portfolio {
+	width: 80%;
+}
+
+
+.credit {
+	font-size:16px;
+}
+
+h3 {
+  font-size: 87px;
+}
+}
+
+
+@media only screen and (min-width:73em) {
+h3 {
+	  font-size: 142px;
+}
+}
+
+div {
+	float:right;
+	margin:1em;
+}
+
+
+
+footer {
+	font-size:30px;
+	border:medium;
+	bottom:0;
+	position:fixed;
+	border-radius:8px;
+}
+
+
+.portfolio img {
+	box-shadow:gray 0.1em 0.1em 1em;
+}
+
+figcaption {
+	
+}
+
+.portfolio a,
+.portfolio a:link,
+.portfolio a:visited {
+	display: block;
+	border: 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+	text-align:center
+}
